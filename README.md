@@ -13,21 +13,18 @@ Hola, Soy Cesar Lojan 👋
 
 
 ```csharp
-anordinaryusername@github
+cesarlojanc@github
 -------------------------
 OS: Arch Linux x86_64
 Shell: zsh 5.8
-Pronouns: He/Him
-Location: Artesia, CA
+Location: Ecuador, Loja
 Frameworks: React
-Languages: JavaScript, TypeScript,
-           HTML, CSS
+Languages: JavaScript, HTML, CSS
 Learning: Node.js, Express, PostgreSQL,
           Three.js, CPP
-Hobbies: Gardening, Cooking, Gaming
-Commits: 980
-Stars: 14
-Discord: RandomPotato#1377
+Hobbies: Cooking, Gaming
+Twitter: @cllojan
+Codepen: @cllojan
 ```
 <p align="left">
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
