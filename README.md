@@ -1,6 +1,6 @@
 
 ```zsh
-cesarl@cesarl:~$ ./saludo.sh
+cesar ~/readme/  ./saludo.sh
 Hola, Soy Cesar Lojan 👋
 ```
 
