@@ -19,7 +19,8 @@ OS: Arch Linux x86_64
 Shell: zsh 5.8
 Location: Ecuador, Loja
 Frameworks: React
-Languages: JavaScript, HTML, CSS
+Languages: JavaScript, HTML, CSS,
+            SASS
 Software: Figma
 Learning: Node.js, Express, PostgreSQL,
           Three.js, CPP
