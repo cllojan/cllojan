@@ -1,5 +1,5 @@
 
 ```console
-cesarl@cesarl:~$ whoami
+cesarl@cesarl:~$ ./saludo.sh
 Hola, Soy Cesar Lojan 👋
 ```
