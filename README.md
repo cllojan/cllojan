@@ -7,10 +7,9 @@ Hola, Soy Cesar Lojan 👋
 ```zsh
 > neofetch
 ```
-
-
-<img align="left" style="border-radius:10px;"  src="https://i.redd.it/h7dae4o0uk461.jpg" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
-
+<kbd>
+  <img align="left"   src="https://i.redd.it/h7dae4o0uk461.jpg" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
+</kbd>
 ```csharp
 anordinaryusername@github
 -------------------------
