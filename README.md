@@ -1,9 +1,5 @@
 
 ```console
-cesarl@ /git: whoami
+cesarl@cesarl:~$ whoami
 Hola, Soy Cesar Lojan 👋
-```
-```console
-foo@bar:~$ whoami
-foo
 ```
