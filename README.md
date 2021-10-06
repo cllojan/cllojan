@@ -20,9 +20,12 @@ Shell: zsh 5.8
 Location: Ecuador, Loja
 Frameworks: React
 Languages: JavaScript, HTML, CSS
+Software: Figma
 Learning: Node.js, Express, PostgreSQL,
           Three.js, CPP
 Hobbies: Cooking, Gaming
+Linkedin:https://www.linkedin.com/in/cesar-luis-lojan-campoverde-89bb69213/
+Email:cllcampoverde@gmail.com
 Twitter: @cllojan
 Codepen: @cllojan
 ```
