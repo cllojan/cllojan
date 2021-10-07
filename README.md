@@ -15,7 +15,7 @@ Hola, Soy Cesar Lojan 👋
 ```csharp
 cesarlojanc@github
 -------------------------
-OS: Arch Linux x86_64
+OS: Linux Lite x86_64
 Shell: zsh 5.8
 Location: Ecuador, Loja
 Frameworks: React
