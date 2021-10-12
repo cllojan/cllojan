@@ -22,7 +22,7 @@ Frameworks: React
 Languages: JavaScript, HTML, CSS,
             SASS
 Software: Figma
-Learning: Node.js, Next.js, React Native, Flutter
+Learning: Node.js, Next.js, ReactNative, Flutter
 Hobbies: Leer, Gaming, Escuchar musica
 Email: cllcampoverde@gmail.com
 Twitter: @cllojan
