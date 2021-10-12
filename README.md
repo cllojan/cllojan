@@ -22,10 +22,9 @@ Frameworks: React
 Languages: JavaScript, HTML, CSS,
             SASS
 Software: Figma
-Learning: Node.js, Express, PostgreSQL,
-          Three.js, CPP
-Hobbies: Cooking, Gaming
-Email:cllcampoverde@gmail.com
+Learning: Node.js, Next.js, React Native, Flutter
+Hobbies: Leer, Gaming, Escuchar musica
+Email: cllcampoverde@gmail.com
 Twitter: @cllojan
 Codepen: @cllojan
 ```
