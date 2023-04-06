@@ -7,8 +7,11 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 body{
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(240, 231, 219);
+    transition: 0.2s ease-out;
 }
+
+
 .container{
     display: flex;    
     
@@ -34,24 +37,24 @@ nav{
     justify-content: space-evenly;
     height: 50px;
     width:98%;
-    gap:10px;
-    
+    gap:10px;    
     background-color: rgb(74, 76, 79);
     border-radius: 7px;
-}
-nav a{
     color:rgb(242, 242, 242);
-    text-decoration: none;
-    
+}
+nav a{    
+    text-decoration: none; 
+    color:rgb(242, 242, 242);   
     transition: 0.2s ease-in-out;
 }
 nav a:hover{
     color:rgb(255, 204, 0);
     transition: 0.3s ease-in;
 }
-.fa-sun,.fa-language{
+.fa-moon,.fa-language,.fa-sun{
     font-size: 20px;
 }
+
 main{
     margin-top:140px;
     width: 90%;
@@ -62,33 +65,33 @@ main{
     justify-content: center;
 }
 
-.about{    
+.profile{    
     display: flex;
     max-width:520px;
-    gap:20px;    
+    gap:20px;  
+    color: #1A202C;      
 }
-.about-text{
+.profile-text{
     flex-grow: 1;
 }
-.about-text h1{
-    color: rgb(74, 76, 79);
+.profile-text h1{
     font-size: 30px;
 }
-.about-text span{
-    color:rgba(128, 132, 137,0.5);
+.profile-text span{
+    color:#1a202cd8;
     font-size:20px;
 }
 
 
-.about img{
+.profile img{
     margin-top: 0px;
     margin-left:1rem;
     border:2px solid rgb(255, 204, 0);
     border-radius: 50%;
     height:120px;
 }
-.texto{
-    color: rgb(74, 76, 79);
+.about{
+    color: #1A202C;
     max-width: 510px;
     display: flex;
     flex-direction:column;
@@ -96,7 +99,7 @@ main{
 }
 
 .links{
-    color: rgb(74, 76, 79);
+    color: #1A202C;
     font-size:25px;
     text-decoration: none;
 }
@@ -105,7 +108,7 @@ main{
     margin-right: 10px;
 }
 
-.texto p{
+.about p{
     font-size: 17px;
     text-align: justify;
     text-indent: 15px;
@@ -153,4 +156,38 @@ main{
 
 footer{
     margin: 30px 0;
+}
+
+.dark {
+    background-color: rgb(32, 32, 35);    
+    transition: 0.2s ease-in;
+}
+.dark header{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.dark nav{
+    background-color: rgba(240, 231, 219, 0.952);
+        
+}
+.dark nav a {
+    color:rgb(32, 32, 35);
+}
+.dark .profile img{
+    border:2px solid #00a4e6;
+    transition: 0.3s ease-in;
+}
+.dark .profile span{
+    color:rgba(255, 255, 255, 0.603);
+}
+.dark .profile,
+.dark .about p,
+.dark .links,
+.dark .cont-projects a span,
+.dark footer span{
+
+    color:rgba(255, 255, 255, 0.92);
+}
+.dark nav a:hover{
+    color:#00a4e6;
+    transition: 0.3s ease-in;
 }
