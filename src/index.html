@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/carpincho.png">
+
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Home</title>
@@ -12,16 +14,17 @@
     <div class="container">
       <header>
         <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
+          <a href="#" data-target="#home">Home</a>
+          <a href="#" data-target="#about">About</a>
+          <a href="#" data-target="#projects">Projects</a>
           <a href="" id="toggleTheme">
             <i class="fa-solid fa-moon" id="icon"></i>            
           </a>
           <a href="#"><i class="fa-solid fa-language"></i></a>
         </nav>
       </header>
-      <main>
+      <!-- Home Content -->
+      <main class="option__home" data-content id="home">
         <div class="profile">
           <div class="profile-text">
             <h1>Cesar Luis Lojan Campoverde</h1>
@@ -30,12 +33,58 @@
           </div>
           <img src="https://avatars.githubusercontent.com/u/67608060?v=4" alt="" srcset="">
         </div>
+        <div class="about" >
+          <a href="#" class="links" data-target="#about"><i class="fa-solid fa-link"></i>About me</a>
+          <p>
+            I'm Cesar Lojan a technology and creativity enthusiast. I love exploring new ideas and pushing the limits of what's possible. I dedicate myself to learning and experimenting with different tools and technologies in order to create unique and attractive solutions. In my free time, I enjoy reading, watching movies and TV shows, and trying out new recipes in the kitchen. I'm always ready to tackle new challenges and bring your ideas to life!
+          </p>
+        </div>
+        <div class="projects">
+          <a href="#" class="links" data-target="#projects"><i class="fa-solid fa-link"></i>Projects</a>
+          <div class="cont-projects">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a><a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a><a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a><a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a><a href="http://" target="_blank" rel="noopener noreferrer">
+              <div class="project"></div>
+              <span class="name-project">Texto</span>
+            </a>
+          </div>
+        </div>
+        <footer>
+          <span>© 2023 Cesar Luis Lojan All Rights Reserved.</span>
+        </footer>
+      </main>
+      <!-- About Content -->
+      <main class="option__about" data-content id="about">
+        
         <div class="about">
           <a href="#" class="links"><i class="fa-solid fa-link"></i>About me</a>
           <p>
             I'm Cesar Lojan a technology and creativity enthusiast. I love exploring new ideas and pushing the limits of what's possible. I dedicate myself to learning and experimenting with different tools and technologies in order to create unique and attractive solutions. In my free time, I enjoy reading, watching movies and TV shows, and trying out new recipes in the kitchen. I'm always ready to tackle new challenges and bring your ideas to life!
           </p>
         </div>
+        
+        <footer>
+          <span>© 2023 Cesar Luis Lojan All Rights Reserved.</span>
+        </footer>
+      </main>
+      <!-- Projects Content -->
+      <main class="option__projects options__active" data-content id="projects">
+        
         <div class="projects">
           <a href="#" class="links"><i class="fa-solid fa-link"></i>Projects</a>
           <div class="cont-projects">
