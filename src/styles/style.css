@@ -6,11 +6,11 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 body{
     background-color: rgb(240, 231, 219);
     transition: 0.2s ease-out;
 }
-
 
 .container{
     display: flex;    
@@ -194,6 +194,8 @@ footer{
     transition: 0.3s ease-in;
 }
 
+
+
 [data-content]{
     position: fixed;
     visibility: hidden;
@@ -202,6 +204,26 @@ footer{
     
 }
 .options__active[data-content]{
+    position: relative;
+    visibility: visible;
+    z-index: 10;
+    opacity: 1;
+}
+.idioma{
+    z-index: 10;
+}
+.fa-language{
+    z-index: 1;
+    pointer-events: none;
+}
+.desc[data-content="idiom"]{
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    
+}
+.desc__active[data-content="idiom"]{
     position: relative;
     visibility: visible;
     z-index: 10;

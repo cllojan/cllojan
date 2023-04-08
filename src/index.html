@@ -14,29 +14,37 @@
     <div class="container">
       <header>
         <nav>
-          <a href="#" data-target="#home">Home</a>
-          <a href="#" data-target="#about">About</a>
-          <a href="#" data-target="#projects">Projects</a>
+          
+          <a href="#" data-target="#home" class="head desc desc__active" data-content="idiom" id="en">Home</a>
+          <a href="#" data-target="#home" class="head desc" data-content="idiom" id="es">Inicio</a>
+          <a href="#" data-target="#about" class="head desc desc__active" data-content="idiom" id="en">About</a>
+          <a href="#" data-target="#about" class="head desc" data-content="idiom" id="es">Sobre Mi</a>
+          
+          <a href="#" data-target="#projects" class="head">Projects</a>
           <a href="" id="toggleTheme">
             <i class="fa-solid fa-moon" id="icon"></i>            
           </a>
-          <a href="#"><i class="fa-solid fa-language"></i></a>
+          <a href="#"  class="idioma" data-target="#es" id="idiomBtn" ><i class="fa-solid fa-language"></i></a>
         </nav>
       </header>
       <!-- Home Content -->
-      <main class="option__home" data-content id="home">
+      <main class="option__home options__active" data-content id="home">
         <div class="profile">
           <div class="profile-text">
             <h1>Cesar Luis Lojan Campoverde</h1>
-            <span>Web Development</span>
+            <span class="desc desc__active" data-content="idiom" id="en">Web Development</span>
+            <span class="desc" data-content="idiom" id="es">Desarrollador Web</span>
             
           </div>
           <img src="https://avatars.githubusercontent.com/u/67608060?v=4" alt="" srcset="">
         </div>
         <div class="about" >
           <a href="#" class="links" data-target="#about"><i class="fa-solid fa-link"></i>About me</a>
-          <p>
+          <p class="desc desc__active" data-content="idiom" id="en">
             I'm Cesar Lojan a technology and creativity enthusiast. I love exploring new ideas and pushing the limits of what's possible. I dedicate myself to learning and experimenting with different tools and technologies in order to create unique and attractive solutions. In my free time, I enjoy reading, watching movies and TV shows, and trying out new recipes in the kitchen. I'm always ready to tackle new challenges and bring your ideas to life!
+          </p>
+          <p class="desc" data-content="idiom" id="es">
+            Soy Cesar Lojan, un entusiasta de la tecnología y la creatividad. Me encanta explorar nuevas ideas y desafiar los límites de lo que es posible. Me dedico a aprender y experimentar con diferentes herramientas y tecnologías para crear soluciones únicas y atractivas. En mi tiempo libre, disfruto leyendo, viendo películas y programas de televisión, y probando nuevas recetas en la cocina. ¡Siempre estoy listo para enfrentar nuevos desafíos y hacer realidad tus ideas!
           </p>
         </div>
         <div class="projects">
@@ -83,7 +91,7 @@
         </footer>
       </main>
       <!-- Projects Content -->
-      <main class="option__projects options__active" data-content id="projects">
+      <main class="option__projects" data-content id="projects">
         
         <div class="projects">
           <a href="#" class="links"><i class="fa-solid fa-link"></i>Projects</a>
