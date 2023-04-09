@@ -9,7 +9,7 @@
 
 body{
     background-color: rgb(240, 231, 219);
-    transition: 0.2s ease-out;
+    
 }
 
 .container{
@@ -63,7 +63,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: 0.5s ease-in-out;
+    
 }
 
 .profile{   
@@ -200,7 +200,7 @@ footer{
     position: fixed;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    
     
 }
 .options__active[data-content]{
@@ -208,6 +208,7 @@ footer{
     visibility: visible;
     z-index: 10;
     opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 .idioma{
     z-index: 10;
@@ -220,7 +221,7 @@ footer{
     position: fixed;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+  
     
 }
 .desc__active[data-content="idiom"]{
@@ -228,4 +229,5 @@ footer{
     visibility: visible;
     z-index: 10;
     opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
 }
