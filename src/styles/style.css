@@ -197,7 +197,7 @@ footer{
 
 
 [data-content]{
-    position: fixed;
+    position:absolute;
     visibility: hidden;
     opacity: 0;
     
@@ -218,16 +218,16 @@ footer{
     pointer-events: none;
 }
 .desc[data-content="idiom"]{
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     opacity: 0;
-  
+    transition: visibility 0s, opacity 0.5s linear;
     
 }
 .desc__active[data-content="idiom"]{
     position: relative;
     visibility: visible;
-    z-index: 10;
+    
     opacity: 1;
-    transition: visibility 0s, opacity 0.5s linear;
+    
 }
