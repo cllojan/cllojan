@@ -2,6 +2,15 @@ const tabs = document.querySelectorAll(".head[data-target]"),
   tabContents = document.querySelectorAll("[data-content]");
 let toggleTheme = document.getElementById("toggleTheme");
 
+/*
+const portfolio = [
+  {
+    id:1,
+    name:'Portfolio',
+    url:""
+  }
+]*/
+
 const idiom = document.querySelector(".idioma[data-target]");
 const contentId = document.querySelectorAll("[data-content='idiom']");
 tabs.forEach(tab => {
@@ -23,7 +32,6 @@ toggleTheme.addEventListener("click", (e) => {
     icon.className = "fa-solid fa-moon";
   }
 })
-
 
 idiom.addEventListener("click", (tab) => {
   
