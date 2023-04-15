@@ -47,11 +47,3 @@ idiom.addEventListener("click", (tab) => {
   })
   
 })
-/*
-function idioma(event){
-  event.preventDefault();
-  console.log(event.target.dataset.target)
-  
-
-}
-*/
