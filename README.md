@@ -73,22 +73,3 @@ a {
   <h1 class="text">LIKE THIS?<span><a href="https://twitter.com/juxtopposed" target="_blank">LET'S CONNECT</a></span></h1>
 </div>
 
-<script>
-
-	gsap.registerPlugin(ScrollTrigger);
-
-const textElements = gsap.utils.toArray('.text');
-
-textElements.forEach(text => {
-  gsap.to(text, {
-    backgroundSize: '100%',
-    ease: 'none',
-    scrollTrigger: {
-      trigger: text,
-      start: 'center 80%',
-      end: 'center 20%',
-      scrub: true,
-    },
-  });
-});
-</script>
