@@ -51,8 +51,8 @@
                 }    
 			</style>
             <div class="body">
-                    <input />
-                    <button>AAAAAAAAaaA</button>
+                    <h2 data-text="Coding...">Coding...</h2>
+                    
             </div>
         </div>
 	</foreignObject>
