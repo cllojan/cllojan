@@ -17,6 +17,31 @@
 	height: 100vh; 
 	object-fit: cover; 
 	background-size: contain;
-	 width: 100vw; 
-	 opacity: 0.5; 
-	 background: url('https://avatars.githubusercontent.com/u/67608060?v=4');background-repeat:no-repeat;]{x0000}$}
+	width: 100vw; 
+	opacity: 0.5; 
+	background: url('https://avatars.githubusercontent.com/u/67608060?v=4');
+	background-repeat:no-repeat;
+	animation:office 20s 4;
+	animation-timing-function:liner;
+	animation-iteration-count:infinite;
+	@keyframes office{
+		0%{
+
+			left:400px;
+			top:0px;
+		}
+		25%{
+
+			left:1150px;
+			top:100px;
+		}
+		75%{
+			left:0px;
+			top:407px;
+		}
+		100%{
+			left:400px;
+			top:0px;
+		}
+	}
+	]{x0000}$}
