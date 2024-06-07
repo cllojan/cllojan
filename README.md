@@ -22,8 +22,8 @@
 	background: url('https://avatars.githubusercontent.com/u/67608060?v=4');
 	background-repeat:no-repeat;
 	animation:office 20s 4;
-	animation-timing-function:liner;
-	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 	@keyframes office{
 		0%{
 
