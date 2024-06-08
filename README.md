@@ -21,5 +21,7 @@
 	opacity: 0.5; 
 	background: url('https://avatars.githubusercontent.com/u/67608060?v=4');
 	background-repeat:no-repeat;
-	animation: 3.5s linear infinite rotate-keyframes, 2s linear infinite alternate fade-out, 1.5s ease-in-out alternate infinite shrink-x;
+	animation: 3.5s linear infinite move-right,
+               2s linear infinite alternate fade-out,
+               1.5s ease-in-out alternate infinite shrink-x;
 	]{x0000}$}
