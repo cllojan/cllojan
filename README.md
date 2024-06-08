@@ -6,11 +6,11 @@ pointer-events:none;
 z-index: 10;
 position: fixed;
 inset:0;
-width:100vw;
-height:100vh;
+width:400px;
+height:400px;
 
 opacity: 1.0;
-background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/giphy.webp');
+background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/xd.webp');
 background-size:cover;
 background-repeat:no-repeat;
 "]{}
