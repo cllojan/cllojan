@@ -3,7 +3,7 @@
 madebycubiquwu;
 color: transparent;
 pointer-events:none;
-z-index: -1;
+z-index: 10;
 position: fixed;
 inset:0;
 width:100vw;
