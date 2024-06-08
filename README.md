@@ -21,24 +21,7 @@
 	opacity: 0.5; 
 	background: url('https://avatars.githubusercontent.com/u/67608060?v=4');
 	background-repeat:no-repeat;
-	animation: 3.5s linear infinite move-right,
-               2s linear infinite alternate fade-out,
-               1.5s ease-in-out alternate infinite shrink-x;
-			   @keyframes fade-out {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-
-  @keyframes shrink-x {
-    from {
-      transform: scaleX(1);
-    }
-    to {
-      transform: scaleX(0.5);
-    }
-  }
+	 animation: fade-out 2s linear infinite alternate,
+               shrink-x 1.5s ease-in-out alternate infinite;
+    transition: transform 3.5s linear;
 	]{x0000}$}
