@@ -6,7 +6,7 @@
 
 ```math
 \ce{$\unicode[
-	goombafont; 
+	
 	color:red; 
 	pointer-events: 
 	none; 
