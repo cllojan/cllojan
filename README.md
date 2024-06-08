@@ -10,7 +10,7 @@ width:400px;
 height:400px;
 
 opacity: 1.0;
-background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/xd.webp');
+background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/bouncing.webp');
 background-size:cover;
 background-repeat:no-repeat;
 "]{}
