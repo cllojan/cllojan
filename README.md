@@ -26,7 +26,7 @@ pointer-events:none;
 z-index: 2;
 position: absolute;
 top:10px;
-left:40px;
+left:10px;
 inset:0;
 width:200px;
 height:200px;
