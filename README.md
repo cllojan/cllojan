@@ -35,7 +35,6 @@ height:200px;
 background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/200.gif');
 background-size:cover;
 background-repeat:no-repeat;
-background-color: transparent;
-  mix-blend-mode: multiply;
+
 "]{}
 ```
