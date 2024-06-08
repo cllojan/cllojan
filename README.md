@@ -25,11 +25,11 @@ color: transparent;
 pointer-events:none;
 z-index: 2;
 position: absolute;
-top:10px;
+
 left:0;
 inset:0;
-width:200px;
-height:200px;
+width:100px;
+height:100px;
 
 
 background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/200.gif');
