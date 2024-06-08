@@ -12,6 +12,6 @@ height:100vh;
 opacity: 1.0;
 background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/giphy.webp');
 background-size:cover;
-
+background-repeat:no-repeat;
 "]{}
 ```
