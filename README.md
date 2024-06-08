@@ -6,7 +6,7 @@ pointer-events:none;
 z-index: -1;
 position: fixed;
 inset:0;
-width:140vw;
+width:100vw;
 height:100vh;
 
 opacity: 1.0;
