@@ -10,7 +10,7 @@ width:140vw;
 height:100vh;
 
 opacity: 1.0;
-background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/aaa.webp');
+background: url('https://raw.githubusercontent.com/cllojan/cllojan/main/giphy.webp');
 background-size:cover;
 
 "]{}
